@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>    
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %> 
+<%@page errorPage="error_page.jsp" %>   
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,6 +21,18 @@
      <c:if test="${3>2}">
      	<h4>this is true block 3>2 </h4>
      </c:if>
+     
+     <%! int n1 = 20;
+         int n2 = 0;
+         /* String content = null; */
+     %>
+     
+     <%
+     	int division = n1/n2;
+     %>
+     
+     <h1>Division = <%= division %></h1>
+     <%-- <%= content.length() %> --%>
           
         
 </body>
