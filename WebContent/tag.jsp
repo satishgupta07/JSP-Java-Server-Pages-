@@ -14,6 +14,22 @@
 	<hr>
 	
 	<t:printTable number="25"></t:printTable>
+	<hr>
+	
+	<!-- JSP Implicit objects -->
+	<%
+		out.println("This is my implicit object");
+	   /*  request.getParameter("");
+	    response.sendRedirect(""); */
+	   /*  config(ServletConfig) */
+	   /* application(ServletContext) */
+	   out.println("<br>");
+	   /* session */
+	   out.println(session.isNew());
+	   /* page: current jsp page */
+	   /* exception: throwable... */
+	   /* pageContext: PageContext */
+	%>
 
 </body>
 </html>
