@@ -26,4 +26,13 @@
     	<tag-class>com.satishgupta.tags.MyTagHandler</tag-class>
     </tag>
     
+    <tag>
+    	<name>printTable</name>
+    	<tag-class>com.satishgupta.tags.PrintTableTag</tag-class>
+    	<attribute>
+    		<name>number</name>
+    		<required>true</required>
+    	</attribute>
+    </tag>
+    
 </taglib>

@@ -11,6 +11,9 @@
 
 	<h1>Hello World</h1>
 	<t:mytag></t:mytag>
+	<hr>
+	
+	<t:printTable number="25"></t:printTable>
 
 </body>
 </html>
